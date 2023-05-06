@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="result">
+		</div>
+		<div class="buttons">
+			<button onclick="clearInput()">C</button>
+			<button onclick="insert('()')">()</button>
+			<button onclick="insert('%')">%</button>
+			<button onclick="insert('/')">/</button>
+			<button onclick="insert('7')">7</button>
+			<button onclick="insert('8')">8</button>
+			<button onclick="insert('9')">9</button>
+			<button onclick="insert('*')">*</button>
+			<button onclick="insert('4')">4</button>
+			<button onclick="insert('5')">5</button>
+			<button onclick="insert('6')">6</button>
+			<button onclick="insert('-')">-</button>
+			<button onclick="insert('1')">1</button>
+			<button onclick="insert('2')">2</button>
+			<button onclick="insert('3')">3</button>
+			<button onclick="insert('+')">+</button>
+			<button onclick="insert('Math.PI')">π</button>
+			<button onclick="insert('Math.sqrt(')">√</button>
+				<button onclick="insert('Math.sin(')">sin</button>
+				<button onclick="insert('Math.cos(')">cos</button>
+				<button onclick="insert('Math.tan(')">tan</button>
+				<button onclick="insert('Math.log(')">log</button>
+			<button onclick="insert('0')">0</button>
+			<button onclick="insert('.')">.</button>
+			<button onclick="calculate()">=</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
